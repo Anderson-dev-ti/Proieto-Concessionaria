@@ -130,3 +130,13 @@ footer p a {
 footer:hover p a {
     color: white;
 }
+
+p.link a {
+    color: white;
+    text-decoration: none;
+}
+
+p.link a:hover {
+    color: red;
+    font-weight: bold;
+}
