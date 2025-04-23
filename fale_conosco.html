@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+
+    <!--ESSA PÁGINA CONTA COM CNN INTERNO-->
+
+    <style>
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        header {
+            padding: 5px;
+        }
+
+        header ul {
+            display: flex;
+            gap: 10px;
+            list-style-type: none;
+        }
+
+        header li {
+            background-color: gray;
+            padding: 5px 10px;
+            border-radius: 50px;
+        }
+
+        header li:hover {
+            background-color: white;
+        }
+
+        header a {
+            color: black;
+            text-decoration: none;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-direction: column;
+            background-image: url('imagens/fastest-cars-in-the-world_1200px.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        main {
+            color: black;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.266);
+            margin-top: 30px;
+        }
+
+        main h1, main h2 {
+            text-align: center;
+        }
+
+        main .contato {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main p {
+            margin: 5px;
+        }
+
+        main span {
+            font-weight: bold;
+        }
+
+        main div.contato ul {
+            background-color: rgba(255, 0, 0, 0.207);    
+        }
+
+        ul li {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" rel="next">Página Inicial</a></li>
+                <li><a href="video.html">Vídeo da empresa</a></li>
+                <li><a href="tabela.html">Tabela com valores</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Ficou com dúvidas? Basta nos contatar!!!</h1>
+        <h2>MendesCar Multimarcas</h2>
+
+        <div class="contato">
+            <h2>Informações de contato</h2>
+            <ul>
+                <li>
+                    <p>Telefone: <a href="tel:+112297-9767">(11) 2297-9767</a></p>
+                </li>
+                <li>
+                    <p>E-mail: <a href="mailto:mendescar@hotmail.com">mendescar@hotmail.com</a></p>
+                </li>
+                <li>
+                    <p><span>Horário de funcionamento: </span>Segunda-Sexta 08h00 - 18h00</p>
+                </li>
+            </ul>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.881560884449!2d-46.45163808921099!3d-23.492586858980697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6116bd3a2935%3A0x2099a5eb68453ad1!2sMendesCar%20Multimarcas!5e1!3m2!1spt-BR!2sbr!4v1745434644899!5m2!1spt-BR!2sbr" width="400px" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>    
+</body>
+</html>
