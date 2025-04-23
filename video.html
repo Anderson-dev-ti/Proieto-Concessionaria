@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Vídeo</title>
+    <style>
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            background-image: url("imagens/muitos_carros.jpg");
+        }
+
+        /* aaaaaaaaaaaaaaaaaaaaaaaaaaa */
+        header {
+            padding: 5px;
+            background-color: darkblue;
+        }
+
+        /* aaaaaaaaaaaaaaaaaaaaaaaaaaa */
+        header ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            list-style-type: none;
+        }
+
+        /* aaaaaaaaaaaaaaaaaaaaaaaaaaa */
+        header li {
+            background-color: gray;
+            padding: 5px 10px;
+            border-radius: 50px;
+        }
+
+        /* aaaaaaaaaaaaaaaaaaaaaaaaaaa */
+        header li:hover {
+            background-color: white;
+        }
+
+        /* aaaaaaaaaaaaaaaaaaaaaaaaaaa */
+        header a {
+            color: black;
+            text-decoration: none;
+
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding-top: 50px;
+        }
+        main h1 {
+            background-color: white;
+            padding: 5px 10px;
+            margin-bottom: 30px;
+            border-radius: 30px;
+        }
+
+        ul li {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" rel="next">Página Inicial</a></li>
+                <li><a href="fale_conosco.html" rel="next">Fale conosco</a></li>
+                <li><a href="tabela.html">Tabela com valores</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Observe Abaixo um vídeo da nossa concessionária</h1>
+        <video controls width="75%">
+            <source src="video/video_m4v.m4v" type="video/mp4">
+            <source src="video/video_webm.webm" type="video/webm">
+            <source src="video/video_mkv.mkv" type="video/mkv">
+            <p>Infelizmente seu navegador não é compatível com a reprodução de vídeos</p>
+        </video>
+    </main>
+</body>
+</html>
